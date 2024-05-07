@@ -53,10 +53,10 @@ namespace GTPSLauncherCSharp
             tw.WriteLine("#      127.0.0.1       localhost ");
             tw.WriteLine("#      ::1             localhost ");
             tw.WriteLine(" ");
-            tw.WriteLine("YourGTPSIP growtopia1.com");
-            tw.WriteLine("YOURGTPSIP growtopia2.com");
+            tw.WriteLine("178.128.55.72 growtopia1.com");
+            tw.WriteLine("178.128.55.72 growtopia2.com");
             tw.Close();
-            label1.Text = "GTPS Is Turn ON";
+            label1.Text = "Dirt Server Is Turn ON";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -86,7 +86,7 @@ namespace GTPSLauncherCSharp
             tw.WriteLine("#      ::1             localhost ");
             tw.WriteLine(" ");
             tw.Close();
-            label1.Text = "GTPS Is Turn OFF";
+            label1.Text = "Touch Grass Now. Server Is Turn OFF";
         }
     }
 }
